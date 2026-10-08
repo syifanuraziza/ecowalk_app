@@ -1,0 +1,19 @@
+Tambahkan dependency ini di pubspec.yaml:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+Pastikan bagian assets:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+File gambar yang dipakai:
+assets/images/ecowalk_logo.png
+assets/images/google_logo.png
+assets/images/profile_photo.png   (opsional; kalau belum ada, akan tampil icon orang)
