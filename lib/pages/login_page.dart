@@ -342,8 +342,8 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   void login() {
-    const usernameBenar = 'syifa';
-    const passwordBenar = 'syifa123';
+    const usernameBenar = 'user';
+    const passwordBenar = 'user123';
 
     final username = usernameController.text.trim();
     final password = passwordController.text;
